@@ -1,0 +1,44 @@
+.lang-toggle-bar {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 4px;
+  background: white;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.lang-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  background: transparent;
+  color: var(--gray-700);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: none;
+  box-shadow: none;
+}
+
+.lang-btn:hover {
+  background: var(--gray-100);
+  transform: none;
+  box-shadow: none;
+}
+
+.lang-btn.active {
+  background: var(--primary);
+  color: white;
+}
+
+.lang-btn.active:hover {
+  background: var(--primary-dark);
+}
