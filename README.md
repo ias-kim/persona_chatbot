@@ -46,7 +46,7 @@ LLM의 System Prompt로 다양한 페르소나를 구현하고,
 
 ### 아키텍처 & 주요 흐름
 
-![아키텍처](assets/architecture.png)
+![아키텍처](assets/architecture_kr.png)
 
 #### 1. 면접 대화 (Haiku + Tool Calling)
 
