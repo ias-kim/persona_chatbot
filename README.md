@@ -24,9 +24,9 @@ LLM의 System Prompt로 다양한 페르소나를 구현하고,
 |:---:|:---:|
 | ![페르소나 선택](assets/persona-select.png) | ![면접 진행](assets/interview.png) |
 
-| 면접 결과 | 시스템 아키텍처 |
-|:---:|:---:|
-| ![면접 결과](assets/results.png) | ![아키텍처](assets/architecture.png) |
+| 면접 결과 |
+|:---:|
+| ![면접 결과](assets/results.png) |
 
 ---
 
@@ -45,6 +45,8 @@ LLM의 System Prompt로 다양한 페르소나를 구현하고,
 ---
 
 ### 아키텍처 & 주요 흐름
+
+![아키텍처](assets/architecture.png)
 
 #### 1. 면접 대화 (Haiku + Tool Calling)
 
@@ -150,9 +152,9 @@ LLMのSystem Promptで多様なペルソナを実装し、
 |:---:|:---:|
 | ![ペルソナ選択](assets/persona-select.png) | ![面接進行](assets/interview.png) |
 
-| 面接結果 | システムアーキテクチャ |
-|:---:|:---:|
-| ![面接結果](assets/results.png) | ![アーキテクチャ](assets/architecture.png) |
+| 面接結果 |
+|:---:|
+| ![面接結果](assets/results.png) |
 
 ---
 
@@ -171,6 +173,8 @@ LLMのSystem Promptで多様なペルソナを実装し、
 ---
 
 ### アーキテクチャ & 主要フロー
+
+![アーキテクチャ](assets/architecture.png)
 
 #### 1. 面接対話フロー (Haiku + Tool Calling)
 
